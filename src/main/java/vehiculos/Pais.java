@@ -9,10 +9,10 @@ public class Pais {
 	}
 	
 	public static Pais paisMasVendedor() {
-		int contador1 = 0;
-		int contador2 = 0;
 		Pais mayor = null;
 		for(int i = 0; i < Vehiculo.paises.size(); i++) {
+			int contador1 = 0;
+			int contador2 = 0;
 			Pais p = Vehiculo.paises.get(i);
 			for(int j = 0; i < Vehiculo.paises.size(); i++) {
 				if(p == Vehiculo.paises.get(j)) {

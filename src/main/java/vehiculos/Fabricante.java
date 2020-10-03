@@ -9,10 +9,10 @@ public class Fabricante {
 	}
 	
 	public static Fabricante fabricaMayorVentas() {
-		int contador1 = 0;
-		int contador2 = 0;
 		Fabricante mayor = null;
 		for(int i = 0; i < Vehiculo.companias.size(); i++) {
+			int contador1 = 0;
+			int contador2 = 0;
 			Fabricante f = Vehiculo.companias.get(i);
 			for(int j = 0; i < Vehiculo.companias.size(); i++) {
 				if(f == Vehiculo.companias.get(j)) {
